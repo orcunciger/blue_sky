@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nota"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PickApp"
+        android:textSize="60sp"
+        android:textColor="#FF5722"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+    <TextView
+    android:id="@+id/openLibrary"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Song Library"
+    android:padding="30dp"
+    android:layout_margin="8dp"
+    android:textColor="#FFAB91"
+    android:textSize="30sp"
+    android:background="#303F9F"
+    android:textColorHighlight="@android:color/holo_blue_bright"
+    android:layout_gravity="center"
+            />
+
+    <TextView
+        android:id="@+id/openPlaying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="#303F9F"
+        android:padding="30dp"
+        android:text="Now Playing"
+        android:textColor="#FFAB91"
+        android:textColorHighlight="@android:color/holo_blue_bright"
+        android:textSize="30sp" />
+</LinearLayout>
